@@ -1,0 +1,79 @@
+#contactPage{
+  min-height: calc(100vh- 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+ display: flex;
+ text-align: center;
+ justify-content:center;
+}
+
+.cotactTittle{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.education{
+    font-weight: 300;
+    font-size: 1rem;
+    display: flex;
+    margin: 2rem;
+    padding: 2.5rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: inset -5px  -5px rgba(0, 0,0,0.5);
+    background: rgba(255, 255, 255, .2);
+}
+
+.cotactDes{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.contactform{
+    margin: 4em auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    /* width: 90vw;
+    max-width: 60rem; */
+}
+
+.name,.email,.message,.number{
+    font-size: medium;
+    width: 60vw;
+    max-width: 40rem;
+    margin:0.5rem;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40,40);
+}
+
+.submitbtn{
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
+
+
+
+
+
